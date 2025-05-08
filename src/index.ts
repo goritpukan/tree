@@ -14,7 +14,6 @@ childrenA.children.push(childrenC);
 childrenD.children.push(childrenE);
 childrenE.children.push(childrenF);
 
-
 root.children.push(childrenA);
 root.children.push(childrenD);
 const tree = new Tree(root);
